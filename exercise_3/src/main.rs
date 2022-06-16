@@ -106,30 +106,3 @@ pub fn test(a: &mut Vec<u8>) -> (Vec<u8>, i32) {
     }
     (b, c as i32)
 }
-
-// fn main() {
-//     let mut a = vec![1,2,3,4,5];
-//     let mut i = 0;
-//     let aa = &mut a;
-//     loop {
-//         let aa = reverse(aa);
-//         println!("{:?}", aa);
-//         i += 1;
-//         if i >= 1 {
-//             break;
-//         }
-//     }
-    
-// }
-
-// fn reverse(a: &mut Vec<i32>) -> Vec<i32> {
-//     let mut b:Vec<i32> = Vec::new();
-    
-//     loop {
-//         if a.len() == 0 {break;}
-//         let d = a.pop().unwrap();
-//         b.push(d);
-//     }
-    
-//     b
-// }
